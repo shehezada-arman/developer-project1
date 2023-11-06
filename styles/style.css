@@ -1,12 +1,15 @@
 * {
   font-family: "Open Sans", sans-serif;
   font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 50px;
 }
 
 nav ul {
@@ -53,6 +56,10 @@ nav h1 {
   font-weight: 700;
   line-height: normal;
 }
+.primary-buttonn{border-radius: 5px;
+    border: 1px solid #FD6E0A;
+
+padding: 19px 23px 18px 58px;}
 
 nav li a {
   color: var(--Dark-02, #474747);
@@ -62,3 +69,42 @@ nav li a {
   font-weight: 400;
   line-height: normal;
 }
+
+.header{background: #FFF8F3;
+    
+}
+.banner{display: flex;
+    background-image: url(../images/header_bg.png);
+ background-repeat: no-repeat;
+ background-position: bottom right;
+}
+.banner-text{margin-left: 230px;
+    margin-top: 180px;
+}
+#img{margin-right: 38px;
+margin-top: 47px;
+
+}
+
+.banner img{width: 584px;
+    height: 580px;
+    }
+    .banner-text h3{color: var(--Dark-02, #474747);
+        ;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;}
+        .banner-text h1{color: var(--Dark-01, #181818);
+            
+            font-size: 85px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;}
+    .banner-text p{color: var(--Dark-03, #757575);
+        
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 166.667% */}
+.banner-text p{margin-bottom: 30px;}
