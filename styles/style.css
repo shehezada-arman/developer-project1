@@ -187,21 +187,103 @@ main {
 .what-description {
   color: var(--Dark-03, #757575);
   text-align: center;
-margin-top: 30px;
+  margin-top: 30px;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px; /* 166.667% */
 }
 
-.what-section{margin-top: 130px;}
-.skill{display: flex;
-    margin-top: 30px;
+.what-section {
+  margin-top: 130px;
 }
-.skill-t{padding: 33px 30px;
-    border-radius: 5px;
-    background: #FFF;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-    margin: 20px;
+.skill {
+  display: flex;
+  margin-top: 30px;
 }
-.skill-description{margin-top: 20px;}
+.skill-t {
+  padding: 33px 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  margin: 20px;
+}
+.skill-description {
+  margin-top: 20px;
+}
+.resume-tittle {
+  display: flex;
+  margin-top: 110px;
+  margin-left: 60px;
+}
+
+.hr {
+  background: #d1d1d1;
+  width: 500px;
+  height: 1px;
+  margin-top: 30px;
+}
+
+.edu {
+  color: var(--Dark-02, #474747);
+
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.exp {
+  margin-left: 18px;
+}
+
+#of {
+  margin-top: 130px;
+}
+
+.resume-skill {
+  color: var(--Dark-02, #474747);
+
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.resume-uni {
+  color: var(--Dark-03, #757575);
+  margin-top: 10px;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.resume-description {
+  color: var(--Dark-03, #757575);
+  width: 511px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+.Cse {
+  margin-top: 30px;
+}
+.developer {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.left {
+  margin-left: 20px;
+}
+.experience {
+  margin-left: 30px;
+}
+
+#cv {
+  margin-left: 500px;
+  margin-top: 50px;
+}
